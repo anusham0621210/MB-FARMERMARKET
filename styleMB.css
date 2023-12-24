@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Anton&family=Butcherman&family=Lobster&family=Metal+Mania&family=Nosifer&family=Rubik+Marker+Hatch&family=Suez+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: .2s linear;
+}
+
+html{
+	font-size: 62.5%;
+	scroll-padding-top: 6rem;
+
+	overflow-x: hidden;
+
+}
+
+section{
+	/*padding: 2rem 9%;*/
+}
+
+header{
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	height: 10px;
+	background: #fff;
+	padding:2rem 9%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	z-index: 1000;
+	/*background: rgba(59, 198, 31, 0.3);*/
+}
+
+header .navbar a{
+	font-size: 2.5rem;
+	padding: 0 1.5rem;
+	color: midnightblue;
+	text-shadow: 1px;
+	width: 100%;
+
+}
+
+header .navbar a:hover{
+	color: indianred;
+}
+.home{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+.home-video{
+	object-fit: cover;
+	position: absolute;
+	top:25px;
+	left: 0;
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+}
+.about{
+	width: 100%;
+	display: flex;
+	min-height: 100vh;
+}
+.about-video{
+	object-fit: cover;
+	background-position: center;
+	width: 100%;
+	min-height:100vh;
+	display: flex;
+}
+.products-video{
+	object-fit: cover;
+	background-position: center;
+	width: 100%;
+	min-height: 100vh;
+	
+}
+.contact-video{
+	object-fit: cover;
+	background-position: center;
+	width: 100%;
+	min-height: 100vh;
+}
+.products{
+	display: flex;
+	align-items: center;
+	min-height: 120vh;
+	background-size: cover;
+	width: 100%;
+}
+.contact{
+	background: #fff;
+
+}
+.heading{
+	text-align: center;
+	color: #33306D;
+	line-height: 2;
+	font-size: 3em;
+	/*padding: 1rem;*/
+	margin: 2rem 0;
+	background: rgba(219, 165, 255, 0.3);
+}
+
+.heading-products{
+	text-align: center;
+	color: #33306D;
+	line-height: 2;
+	font-size: 3em;
+	/*padding: 1rem;
+	margin: 2rem 0;*/
+	background: rgba(219, 165, 255, 0.3);
+	
+}
+.contact{
+	display: flex;
+	align-items: center;
+	min-height: 120vh;
+	background: url(ContactUs.jpg);
+	background-size: cover;
+	
+}
+.headingContact
+{
+	text-align: center;
+	color: #33306D;
+	line-height: 2;
+	font-size: 3em;
+	/*margin: 2rem 0;*/
+	background: rgba(219, 165, 255, 0.3);
+
+}
+.text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 70px 450px;
+	z-index: 1000;
+}
+
+.contact-us
+{
+	text-align: left;
+	background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+	html{
+		font-size: 55%;
+	}
+	header{
+		padding: 2rem;
+	}
+}
+
+/**{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box ;
+}
+
+.logo
+{
+	 float: fixed;
+	 left: 0px;
+}
+.Home{
+	position: absolute;
+	right: 0;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background: #111;
+	color: #fff;
+	z-index: 2;
+	display: flex;
+
+}
+.text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 100px 450px;
+	z-index: 1000;
+}
+.nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	gap:3.5em;
+	justify-content: right;
+	color: red;
+	padding: 35px 100px 0;
+	list-style: none;
+	float: left;
+	color: indianred;
+	font-family: 'Alumni Sans Collegiate One', sans-serif;
+	font-family: 'Nosifer', sans-serif;
+	line-height: 2;
+    
+}
+
+.neon-tagline{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	padding: 340px 150px;
+	color: #111;
+	font-family: 'Alumni Sans Collegiate One', sans-serif;
+	font-family: 'Nosifer', sans-serif;
+	line-height: 2;
+    color: green;
+    animation: neon 1s ease-in-out infinite alternate;
+
+}
+@keyframes neon {
+from {
+    text-shadow: 0 0 35px #85FF64,
+                0 0 40px #2BBF03,
+                0 0 55px #141ae2;
+	}
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box ;
+}
+/*body{
+	
+	font-family: 'Alumni Sans Collegiate One', sans-serif;
+}*/
+/*nav{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #3BC61F;
+}*/
+/*.logo{
+	position: absolute;
+	right: 0;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background: #111;
+	color: #fff;
+	z-index: 2;
+	display: flex;
+
+}
+.text{
+	position: absolute;
+	display: flex;
+	top: 0;
+	justify-content: right;
+	z-index: 9;
+    margin: 20px;
+	
+	
+}
+header
+{
+	/*width: 100%;
+	height: 100vh;
+	/*background:url("veggies.jpg");
+	background-size: 100% 100%;
+	font-family: Art-Nuvo regular;
+}
+.header-text{
+	max-width: 650px;
+	position: absolute;
+	top: 45%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color:honeydew;
+	letter-spacing: 5px;
+	font-size: 1.27em;
+}
+
+.menu{
+	color: white;
+	top: 0;
+	justify-content: right;
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
